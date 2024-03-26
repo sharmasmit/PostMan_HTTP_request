@@ -6,7 +6,7 @@ app.get("/", (req, res) => {
   res.send("<h1>Good Morning</h1>");
 });
 
-app.post("/ragister", (req, res) => {
+app.post("/register", (req, res) => {
   res.sendStatus(201);
 });
 
